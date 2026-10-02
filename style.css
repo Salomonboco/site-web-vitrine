@@ -251,3 +251,48 @@ p{
     margin-left: 5px;
     margin-right: 24px;
 }
+
+/*------------------------------------ Section devenir-formateur---------------------------------*/
+.devenir-formateur{
+    background-image: linear-gradient(rgba(4, 41, 117, 0.6),rgba(4, 41, 117, 0.6)),url(../images/banner.jpg);
+    height: 90vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.text-bloc{
+    width: 80%;
+    text-align: center;
+}
+.text-bloc h1{
+    color: #FFF;
+    font-size: 60px;
+}
+.text-bloc p{
+    color: #FFF;
+    font-size: 16px;
+}
+.btn-formateur{
+    background-color: #F95E05;
+    font-size: 16px;
+    padding: 12px 34px;
+    font-weight: 600;
+    height: 3.5em;
+    color: #FFF;
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration: none;
+    border: 1px solid transparent;
+    border-radius: 7px;
+    cursor: pointer;
+}
+.btn-formateur:hover{
+    border: 1px solid #09C7FA;
+    background-color: #09C7FA;
+    color: #FFF;
+    transition: 0.6s;
+}
